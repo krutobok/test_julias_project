@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Lato:wght@400;700&family=Raleway:wght@400;500;600;700&family=Philosopher:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Практичний психолог Шапочка Юлія</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!--=include header.html-->
+    <main class="main">
+      <section id="about" class="about img-section">
+        <div class="container">
+          <div class="about__inner img-section__inner">
+            <div
+              class="animate animate-standard about__image-container img-section__image-container"
+            >
+              <picture>
+                <source srcset="images/photo-1.avif" type="image/avif" />
+                <source srcset="images/photo-1.webp" type="image/webp" />
+                <img
+                  class="about__img img-section__img"
+                  src="images/photo-1.jpg"
+                  alt="Моє фото"
+                />
+              </picture>
+            </div>
+            <div class="about__right img-section__right">
+              <h1 class="about__title animate animate-title">
+                <span>Шапочка Юлія</span> <span>Практичний психолог</span>
+              </h1>
+              <div class="animate animate-standard">
+                <button class="about__btn btn" data-modal="modal">
+                  Консультація
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="approach" class="approach">
+        <div class="container">
+          <div class="approach__inner">
+            <h2 class="approach__title title animate animate-title">
+              <span> Мій підхід</span>
+            </h2>
+            <p class="approach__text text animate animate-title">
+              <span>
+                Мій підхід базується на розумінні унікальності кожної людини. Я
+                використовую різні методи та техніки, адаптуючи їх до потреб
+                конкретного клієнта. Важливою частиною моєї роботи є створення
+                безпечного і підтримуючого середовища, де клієнти можуть
+                відкрито ділитися своїми думками та почуттями
+              </span>
+            </p>
+            <div class="animate animate-standard">
+              <button class="approach__btn btn" data-modal="modal">
+                Цікаво
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="appointment" class="appointment img-section">
+        <div class="container">
+          <div class="appointment__inner img-section__inner">
+            <div
+              class="animate animate-standard appointment__image-container img-section__image-container"
+            >
+              <picture>
+                <source srcset="images/photo-2.avif" type="image/avif" />
+                <source srcset="images/photo-2.webp" type="image/webp" />
+                <img
+                  class="appointment__img img-section__img"
+                  src="images/photo-2.jpg"
+                  alt="Моє фото"
+                />
+              </picture>
+            </div>
+            <div class="appointment__right img-section__right">
+              <h2 class="appointment__title animate animate-title title">
+                <span
+                  >Консультування з питань особистого розвитку та
+                  самореалізації; тривожність та стрес; міжособистісні відносини
+                </span>
+              </h2>
+              <div class="animate animate-standard">
+                <button class="appointment__btn btn" data-modal="modal">
+                  Записатися
+                </button>
+              </div>
+              <p class="appointment__price animate animate-title">
+                <span> Ціна: 800₴</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--=include footer.html-->
+    <!--=include modal.html-->
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
